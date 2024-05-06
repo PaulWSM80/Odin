@@ -1,0 +1,11 @@
+/* classes */
+.container>.text {
+    background-color: yellow;
+    color: red;
+}
+
+/* type */
+div>p {
+    font-size: 20px;
+    text-align: center;
+}
