@@ -1,10 +1,8 @@
-# The Odin Project
+# The Odin Project - Fountadions
 
-## Fountadions
+## HTML Project: Recipes
 
-### HTML Project: Recipes
-
-#### Introduction
+### Introduction
 
 A project to build a basic website consisting of a main index page with links to
 a few recipes as specified in the HTML Foundations 
@@ -14,15 +12,15 @@ The project demonstrates an ability to construct basic web pages using html
 elements and combine them to form a crude but working website. It does not 
 include any styling beyond that supplied by browsers as default.
 
-#### Assignment
+### Assignment
 
-##### Iteration 1: initial structure
+#### Iteration 1: initial structure
 
 1. Within the `odin-recipes` directory, create an `index.html` file.
 2. Fill it out with the usual boilerplate HTML and add an `h1` heading “Odin 
 Recipes” to the body.
 
-##### Iteration 2: recipe page
+#### Iteration 2: recipe page
 
 1. Create a new directory within the `odin-recipes` directory and name it 
 `recipes`.
@@ -36,7 +34,7 @@ created. Example: Under the `<h1>Odin Recipes</h1>` heading, write out the link
 like so: `<a href="recipes/recipename.html">Recipe Title</a>`. The text of the 
 link should again be the recipe name.
 
-##### Iteration 3: recipe page content
+#### Iteration 3: recipe page content
 
 Your new recipe page should have the following content:
 
@@ -50,7 +48,7 @@ __unordered list__ of the ingredients needed for the recipe.
 4. Finally, under the ingredients list, add a “Steps” heading followed by an
 __ordered list__ of the steps needed for making the dish.
 
-##### Iteration 4: add more recipes
+#### Iteration 4: add more recipes
 1. Add two more recipes with identical page structures to the recipe page you’ve 
 already created.
 2. Don’t forget to link to the new recipes on the index page. Also, consider 
