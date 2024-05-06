@@ -1,0 +1,25 @@
+.dark {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.accent {
+    background-color: yellow;
+}
+
+
+/*  !!WRONG!!
+    Works but does not use grouping selector
+    */
+/* button {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+} */
+
+/*  **This is a Grouping Selector** */
+.dark,
+.accent {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
