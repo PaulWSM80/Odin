@@ -1,0 +1,21 @@
+.odd {
+    background-color: #f19d9d;
+    font-family: sans-serif;
+}
+
+.medium {
+    font-size: 2rem;
+}
+
+.large {
+    font-size: 4rem;
+}
+
+#blue_txt {
+    color: #1f1fc0;
+}
+
+#green_bg {
+    background-color: #67f067;
+    font-weight: bold;
+}
