@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*----------------------------------------------------------------------------*/
+
+/*  == SMALLER CHILD DIV == */
+
+.para,
+.small-para {
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+}
+
+
+
+.para {
+    font-size: 22px;
+}
+
+.para.small-para {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/*
+Swapping the order produces the desired result; however, adding chaining to the
+selector means future edits will not risk breaking this change.
+*/
+
+/*----------------------------------------------------------------------------*/
+
+/*  == SMALLER CHILD DIV == */
+
+.button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.button.confirm {
+    background: green;
+    color: white;
+    font-weight: bold;
+}
+
+/*
+Swapping the order produces the desired result; however, adding chaining to the
+selector means future edits will not risk breaking this change.
+The element has an ID that could also have been used. As IDs are unique they
+should be reserved for adding truly unique styles to unique elements
+*/
+
+/*----------------------------------------------------------------------------*/
+
+/*  == SMALLER CHILD DIV == */
+
+div.text {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100;
+}
+
+div.text.child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+}
+
+/*
+Chaining selectors together for .child provides the needed specificity.
+Changing the order is not helpful in or of itself, but feels like a more logical
+arrangement.
+*/
