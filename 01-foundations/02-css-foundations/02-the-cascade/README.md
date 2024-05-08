@@ -1,13 +1,13 @@
 # The Odin Project - Foundations
 
-## Intro To CSS
+## The Cascade
 
 ### Introduction
 
 A short task to practice working with the priorities defined in CSS' cascade as specified in the CSS Foundations - Cascade
 [assignment](https://www.theodinproject.com/lessons/foundations-the-cascade#assignment).
 
-The task demonstrates...<!-- TODO -->
+The task demonstrates how to use CSS selectors to target HTML elements in complex scenarios.
 
 ### Assignment
 
@@ -17,7 +17,7 @@ The task demonstrates...<!-- TODO -->
 
 #### 06-cascade-fix
 
-Editing only the CSS of the provided files, compare what is onscreen with the desired outcome then workout what is wrong with the cascade and fix it.
+Editing only the CSS of the provided files, compare what is on screen with the desired outcome then workout what is wrong with the cascade and fix it.
 
 ##### Desired Outcome
 
