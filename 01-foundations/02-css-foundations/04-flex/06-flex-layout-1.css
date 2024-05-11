@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    color: #333;
+}
+
+img {
+    width: 600px;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #eee;
+}
+
+input {
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 8px 24px;
+    width: 400px;
+}
+
+/*  == INITIAL SOLUTION ==      */
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* ! == 1 == ! */
+    /* justify-content: space-between; */
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    /* * == 2 == * */
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+/* ! == 2 == ! */
+/* li {
+    list-style: none;
+    display: inline;
+    padding: 8px;
+} */
+
+button {
+    padding: 8px;
+}
+
+.header,
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.footer {
+    background-color: #eeeeee;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    /* ! == 1 == ! */
+    /* align-self: center; */
+    /* * == 1 == * */
+    flex: 1;
+    justify-content: center;
+}
+
+/*
+== 1 ==
+- The property `flex: 1` allows the `.content` div to fill the space, instead of
+using `justify-content: space-between`.
+- The property `justify-content: center` centers the `.content` dive vertically
+in the column, instead of `align-self: center.
+The change allows all of the styling for `.content` to be consolidated in one
+place using a single class selector that refers to the div being styled.
+
+== 2 ==
+- Move `list-style: none` from li elements to ul elements.
+- Prefer `display: flex` to `display: inline`.
+- Change from padding to gap.
+Inline elements will stack vertically if the page gets too small; flex avoids
+this. Gap is more appropriate for flex items. Again, consolidates properties.
+*/
