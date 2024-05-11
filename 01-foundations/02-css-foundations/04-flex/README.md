@@ -129,7 +129,7 @@ The specification is as follows:
 
 ### 07-flex-layout-2
 
-Working with the provided files use flexbox to create the "(Holy Grail)[https://www.google.com/search?q=holy+grail+layout&sclient=img&udm=2]" layout.
+Working with the provided files use flexbox to create the "[Holy Grail](https://www.google.com/search?q=holy+grail+layout&sclient=img&udm=2)" layout.
 
 The specification is as follows:
 
