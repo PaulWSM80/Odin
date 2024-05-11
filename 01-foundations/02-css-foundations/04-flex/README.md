@@ -1,29 +1,27 @@
-# The Odin Project - Foundations
+# The Odin Project - Foundations: Flex
 
-## Flex
-
-### Introduction
+## Introduction
 
 A short task to practice working with flex as specified in the CSS Foundations - Alignment
 [assignment](https://www.theodinproject.com/lessons/foundations-alignment#assignment).
 
 The task demonstrates the various features when using flex.
 
-### Assignment
+## Assignment
 
 Go to the [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and complete the following
 exercises:
 
-#### 01-flex-center
+### 01-flex-center
 
 Working with the provided files use flexbox to center the div.
 
 
-##### Desired Result
+#### Desired Result
 
 ![Example of the desired result](https://github.com/TheOdinProject/css-exercises/raw/main/flex/01-flex-center/desired-outcome.png)
 
-#### 02-flex-header-1
+### 02-flex-header-1
 
 Working with the provided files use flexbox rules to create a common webpage header style that scales with the screen.
 
@@ -36,20 +34,20 @@ The specification is as follows:
 - Your solution does not use floats, inline-block, or absolute positioning.
 - Note: For this exercise, it's completely acceptable to not match the font-family.
 
-##### Desired Result
+#### Desired Result
 
-NARROW:
+##### NARROW:
 
 ![Example of the desired result](https://github.com/TheOdinProject/css-exercises/raw/main/flex/02-flex-header/desired-outcome-narrow.png)
 
-WIDE:
+##### WIDE:
 
 ![Example of the desired result](https://github.com/TheOdinProject/css-exercises/raw/main/flex/02-flex-header/desired-outcome-wide.png)
 
 > [!NOTE]
 > If the wide example appears to be shorter than the narrow example it has been scaled to fit the page. Both images are the same height at 100% scale.
 
-#### 03-flex-header-2
+### 03-flex-header-2
 
 Working with the provided files use flexbox rules to create a common webpage header style that scales with the screen. For this exercise edits may be applied to both files.
 
@@ -61,17 +59,17 @@ The specification is as follows:
 - There is 16px between each item on both sides of the header.
 - flex is used to arrange everything.
 
-##### Desired Result
+#### Desired Result
 
-STATIC FULL:
+##### STATIC FULL:
 
 ![Example of the desired result](https://github.com/TheOdinProject/css-exercises/raw/main/flex/03-flex-header-2/desired-outcome.png)
 
-ANIMATED FLEX:
+##### ANIMATED FLEX:
 
 ![Example of the desired result](https://github.com/TheOdinProject/css-exercises/raw/main/flex/03-flex-header-2/desired-outcome.gif)
 
-#### 04-flex-information
+### 04-flex-information
 
 Working with the provided files use flexbox to replicate the desired result.
 
@@ -85,12 +83,12 @@ The specification is as follows:
 - The items are only 200px wide and the text wraps.
 - The item text is centred.
 
-##### Desired Result
+#### Desired Result
 
 ![Example of the desired result](https://github.com/TheOdinProject/css-exercises/raw/main/flex/04-flex-information/desired-outcome.png)
 
 
-#### 05-flex-modal
+### 05-flex-modal
 
 Working with the provided files use flexbox to replicate the common pattern of the desired result.
 
@@ -103,11 +101,11 @@ The specification is as follows:
 - The header is bold and a slightly larger text-size than the text.
 - The close button is vertically aligned with the header, and aligned in the top-right of the card.
 
-##### Desired Result
+#### Desired Result
 
 ![Example of the desired result](https://github.com/TheOdinProject/css-exercises/raw/main/flex/05-flex-modal/desired-outcome.png)
 
-#### 06-flex-layout-1
+### 06-flex-layout-1
 
 Working with the provided files use flexbox to layout an entire webpage as shown in the desired result.
 
@@ -122,14 +120,14 @@ The specification is as follows:
 - The buttons have an appropriate amount of padding.
 - There is space between the logo, input and buttons.
 
-##### Desired Result
+#### Desired Result
 
 ![Example of the desired result](https://github.com/TheOdinProject/css-exercises/raw/main/flex/06-flex-layout/desired-outcome.png)
 
 > [!NOTE]
 > The desired result has an rounded bottom left corner that is out of keeping with the internal style. This feature is not part of the exercise.
 
-#### 07-flex-layout-2
+### 07-flex-layout-2
 
 Working with the provided files use flexbox to create the "(Holy Grail)[https://www.google.com/search?q=holy+grail+layout&sclient=img&udm=2]" layout.
 
@@ -146,13 +144,13 @@ The specification is as follows:
 - There is 48px padding around the 'cards' section.
 - The cards are arranged horizontally, but wrap to multiple lines when they run out of room on the page.
 
-##### Desired Result
+#### Desired Result
 
-WIDE SCREEN:
+##### WIDE SCREEN:
 
 ![Example of the desired result](https://github.com/TheOdinProject/css-exercises/raw/main/flex/07-flex-layout-2/desired-outcome.png)
 
-NARROW SCREEN:
+##### NARROW SCREEN:
 
 ![Example of the desired result](https://github.com/TheOdinProject/css-exercises/raw/main/flex/07-flex-layout-2/desired-outcome-smaller.png)
 

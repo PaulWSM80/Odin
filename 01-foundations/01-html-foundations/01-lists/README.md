@@ -1,8 +1,6 @@
-# The Odin Project - Foundations
+# The Odin Project - Foundations: HTML Lists
 
-## HTML Lists
-
-### Introduction
+## Introduction
 
 A short task to practice using list elements as specified in the HTML Foundations
 Lists
@@ -10,7 +8,7 @@ Lists
 
 The task demonstrates ordered and unordered list elements.
 
-### Assignment
+## Assignment
 
 To get some practice using lists, create a new HTML document and create the following lists:
 

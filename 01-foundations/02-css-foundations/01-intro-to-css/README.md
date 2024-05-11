@@ -1,20 +1,18 @@
-# The Odin Project - Foundations
+# The Odin Project - Foundations: Intro To CSS
 
-## Intro To CSS
-
-### Introduction
+## Introduction
 
 A short task to practice using CSS selectors as specified in the CSS Foundations - Intro To CSS
 [assignment](https://www.theodinproject.com/lessons/foundations-intro-to-css#assignment).
 
 The task demonstrates class, group, chain and descendant selectors.
 
-### Assignment
+## Assignment
 
 Go to the [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and read the README. Complete the
 following exercises in order:
 
-#### 01-css-methods
+### 01-css-methods
 
 Using the html file provided add CSS to an HTML file using all three methods: external CSS, internal CSS, and inline
 CSS. Only use type selectors for this exercise when adding styles via the external and internal methods. Also use
@@ -27,11 +25,11 @@ The properties you need to add to each element are:
 - `button`: an orange background and a font size of 18px
 
 
-##### Desired Result
+#### Desired Result
 
 ![Example of the desired result](https://github.com/TheOdinProject/css-exercises/raw/main/foundations/01-css-methods/desired-outcome.png)
 
-#### 02-class-id-selectors
+### 02-class-id-selectors
 
 Using the HTML file provided, add either class or ID attributes, as noted in the outcome image below. Add rules in the
 CSS file provided using the correct selector syntax. Look over the outcome image carefully to keep in mind which
@@ -46,28 +44,28 @@ in this exercise, try using a non-keyword value (RGB, HEX, or HSL). The properti
 - The third element: in addition to the styles for all odd numbered elements, add a font size of 24px
 - The fourth element: a light green background, a font size of 24px, and bold
 
-##### Desired Result
+#### Desired Result
 
 ![Example of the desired result](https://github.com/TheOdinProject/css-exercises/raw/main/foundations/02-class-id-selectors/desired-outcome.png)
 
-#### 03-group-selectors
+### 03-group-selectors
 
 Using the html and css files provided give two elements each a unique class name then add rules for styles that both
 elements share as well as their own unique styles.
 
 The properties for each element are:
 
-__The first element__: a black background, white text color, and a bold font weight
-__The second element__: a yellow background
+__The first element__: a black background, white text color, and a bold font weight<br>
+__The second element__: a yellow background<br>
 __Both elements__: a font size of 28px and a list of fonts containing Helvetica and Times New Roman, with sans-serif as
 a fallback
 
 
-##### Desired Result
+#### Desired Result
 
 ![Example of the desired result](https://github.com/TheOdinProject/css-exercises/raw/main/foundations/03-grouping-selectors/desired-outcome.png)
 
-#### 04-chain-selectors
+### 04-chain-selectors
 
 Credits for the images in this exercise go to [Katho Mutodo](https://linktr.ee/photobykatho_) and
 [Andrea Piacquadio](https://www.pexels.com/@olly?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels).
@@ -82,11 +80,11 @@ retains its original square proportions (don't hardcode in a pixel value for the
 - Make the element with both the avatar and distorted classes 200 pixels wide, then make its height twice as big as its
 width (here you should hardcode in a pixel value).
 
-##### Desired Result
+#### Desired Result
 
 ![Example of the desired result](https://github.com/TheOdinProject/css-exercises/raw/main/foundations/04-chaining-selectors/desired-outcome.png)
 
-#### 05-descendant-combinator
+### 05-descendant-combinator
 
 Using the provided files apply styles to elements that are descendants of another element while leaving elements that aren't descendants of that elements unstyled.
 
@@ -96,6 +94,6 @@ The properties you need to add are:
 
 - Only the `p` elements that are descendants of the div element should have a yellow background, red text, a font size of 20px, and center aligned.
 
-##### Desired Outcome
+#### Desired Outcome
 
 ![Example of the desired result](https://github.com/TheOdinProject/css-exercises/raw/main/foundations/05-descendant-combinator/desired-outcome.png)
