@@ -1,3 +1,18 @@
+:root {
+    --dark: #1f2937;
+    --mid: #e5e7eb;
+    --light: #ffffff;
+    --accent: #2882f6;
+
+}
+
 body {
     font-family: roboto, sans-serif;
+}
+
+footer {
+    background-color: var(--dark);
+    color: var(--mid);
+    text-align: center;
+    padding: 32px 0;
 }
