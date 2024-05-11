@@ -12,6 +12,7 @@
 
 body {
     font-family: roboto, sans-serif;
+    margin: 0;
 }
 
 button {
@@ -21,6 +22,51 @@ button {
     border-radius: 12px;
     padding: 20px;
     padding: 0px 50px;
+}
+
+
+/* == HERO ==   */
+
+.hero {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+
+/* == INFO ==   */
+
+.info {
+    text-align: center;
+    width: 800px;
+    margin: 50px auto 100px auto;
+}
+
+.info h2 {
+    color: var(--dark);
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.info-cards {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    flex-shrink: 10;
+}
+
+.card img {
+    border: solid var(--accent) 4px;
+    border-radius: 12px;
+    width: calc(100% - 8px);
+    object-fit: scale-down;
+}
+
+.card p {
+    color: #75777b;
+    font-size: 18px;
 }
 
 
