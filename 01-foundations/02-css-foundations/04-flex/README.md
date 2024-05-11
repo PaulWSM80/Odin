@@ -46,8 +46,8 @@ WIDE:
 
 ![Example of the desired result](https://github.com/TheOdinProject/css-exercises/raw/main/flex/02-flex-header/desired-outcome-wide.png)
 
-> **Note**<br>
-If the wide example appears to be shorter than the narrow example it has been scaled to fit the page. Both images are the same height at 100% scale.
+> [!NOTE]
+> If the wide example appears to be shorter than the narrow example it has been scaled to fit the page. Both images are the same height at 100% scale.
 
 #### 03-flex-header-2
 
@@ -126,8 +126,8 @@ The specification is as follows:
 
 ![Example of the desired result](https://github.com/TheOdinProject/css-exercises/raw/main/flex/06-flex-layout/desired-outcome.png)
 
-> **Note**<br>
-The desired result has an rounded bottom left corner that is out of keeping with the internal style. This feature is not part of the exercise.
+> [!NOTE]
+> The desired result has an rounded bottom left corner that is out of keeping with the internal style. This feature is not part of the exercise.
 
 #### 07-flex-layout-2
 
@@ -156,7 +156,6 @@ NARROW SCREEN:
 
 ![Example of the desired result](https://github.com/TheOdinProject/css-exercises/raw/main/flex/07-flex-layout-2/desired-outcome-smaller.png)
 
-> **Note**<br>
-1 ) The desired results have rounded bottom left corners that are out of keeping with the internal style. This feature
-is not part of the exercise.<br>
-2 ) Emoji display is dependant on the installation of an appropriate font family. Failure to render can be ignored.
+> [!NOTE]
+> 1. The desired results have rounded bottom left corners that are out of keeping with the internal style. This feature is not part of the exercise.
+> 2. Emoji display is dependant on the installation of an appropriate font family. Failure to render can be ignored.
