@@ -15,3 +15,5 @@ Repository to store work completed as part of [The Odin Project](https://www.the
   - [Block And Inline](./01-foundations/02-css-foundations/03-block-and-inline/)
   - [Flex](./01-foundations/02-css-foundations/04-flex/)
   - [Project](./01-foundations/02-css-foundations/project/)
+- JS
+  - [Variables And Operators](./01-foundations/03-js-foundations/01-variables-and-operators/)
