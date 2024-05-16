@@ -15,7 +15,7 @@ Fix the function provided so that it logs the number 2 without hard coding the r
 
 ### Exercise 2
 
-Change the code provided to return `true` when the number is greater than or equal to 10, and `false if it is less than 10.
+Change the code provided to return `true` when the number is greater than or equal to 10, and `false` if it is less than 10.
 
 ### Exercise 3
 
