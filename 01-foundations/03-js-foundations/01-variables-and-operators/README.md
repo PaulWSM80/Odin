@@ -1,4 +1,4 @@
-# The Odin Project - Foundations: Variables and Operators
+# The Odin Project - Foundations: JS Variables and Operators
 
 ## Introduction
 

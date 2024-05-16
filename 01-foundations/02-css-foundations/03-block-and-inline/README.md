@@ -1,4 +1,4 @@
-# The Odin Project - Foundations: Block And Inline
+# The Odin Project - Foundations: CSS Block And Inline
 
 ## Introduction
 

@@ -1,4 +1,4 @@
-# The Odin Project - Foundations: Flex
+# The Odin Project - Foundations: CSS Flex
 
 ## Introduction
 

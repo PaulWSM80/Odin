@@ -1,4 +1,4 @@
-# The Odin Project - Foundations: The Cascade
+# The Odin Project - Foundations: CSS The Cascade
 
 ## Introduction
 
