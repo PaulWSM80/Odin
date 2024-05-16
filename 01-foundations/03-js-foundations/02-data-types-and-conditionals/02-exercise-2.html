@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables and Operators</title>
+</head>
+
+<body>
+    <p>This page prints output to the console log. Use a browser's development tools to view.</p>
+    <script>
+
+        /**
+         * The code below tells the browser to ask you for a number
+         * then if that number is `6`, it returns `true` otherwise it returns `false`
+         *
+         * Change this code so it returns `true` when the number is greater than or equal to 10, and false if it is less than 10
+         */
+
+        number = Number(prompt("enter a number"));
+
+        function numberChecker() {
+            // -- OLD --
+            // if(number === 6) {
+            //     return true;
+            // } else {
+            //     return false;
+            // }
+
+            // --NEW --
+            return (number >= 10);
+        }
+
+        console.log(numberChecker())
+    </script>
+</body>
+
+</html>
