@@ -11,6 +11,49 @@
 <body>
     <h1>Rock Paper Scissors</h1>
 
+    <div class="section">
+        <div class="section-header score-bg">Score</div>
+        <div class="section-main">
+            <div class="display score-bg">
+                <div class="display-label">Player</div>
+                <div id="player-score" class="display-info">0</div>
+            </div>
+            <div class="display score-bg">
+                <div class="display-label">CPU</div>
+                <div id="cpu-score" class="display-info">0</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-header result-bg">Round Result</div>
+        <div class="section-main">
+            <div class="display result-bg">
+                <div class="display-label">Player</div>
+                <div id="player-choice" class="display-info">Rock</div>
+            </div>
+            <div class="display result-bg">
+                <div class="display-label">CPU</div>
+                <div id="cpu-choice" class="display-info">Scissors</div>
+            </div>
+        </div>
+        <div id="result" class="section-header result-bg">
+            Player Wins
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-header button-bg">
+            Player Choices
+        </div>
+        <div class="section-main">
+            <div id="rock" class="button button-bg" onclick="rock()">ROCK</div>
+            <div id="paper" class="button button-bg" onclick="paper()">PAPER</div>
+            <div id="scissors" class="button button-bg" onclick="scissors()">SCISSORS</div>
+        </div>
+    </div>
+
+
 </body>
 
 </html>

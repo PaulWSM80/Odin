@@ -5,3 +5,74 @@ body {
 h1 {
     text-align: center;
 }
+
+.score-bg {
+    background-color: lightblue;
+}
+
+.result-bg {
+    background-color: lightcoral;
+}
+
+.button-bg {
+    background-color: lightseagreen;
+}
+
+.section {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.section-header {
+    font-size: 1.8em;
+}
+
+.section-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.display {
+    width: 50%;
+}
+
+.section-header,
+.display,
+.button {
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.display-info {
+    background-color: white;
+    font-size: 5em;
+}
+
+.score-header {
+    font-size: 1.8em;
+}
+
+.display-label {
+    font-size: 1.5em;
+    padding-bottom: 8px;
+}
+
+.button {
+    font-size: 3em;
+    width: 300px;
+}
+
+.button:hover {
+    background-color: rgb(38, 163, 172);
+}
+
+.button:active {
+    background-color: rgb(223, 223, 223);
+    color: rgb(38, 163, 172);
+}
