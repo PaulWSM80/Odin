@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables and Operators</title>
+</head>
+
+<body>
+    <p>This page prints output to the console log. Use a browser's development tools to view.</p>
+    <script>
+
+        // Write a function called add7 that takes one number and returns that
+        // number + 7.
+        function add7(num) {
+            return num + 7;
+        }
+
+        // Write a function called multiply that takes 2 numbers and returns
+        // their product.
+        function multiply(a, b) {
+            return (a * b);
+        }
+
+        // Write a function called capitalize that takes a string and returns
+        // that string with only the first letter capitalized. Make sure that it
+        // can take strings that are lowercase, UPPERCASE or BoTh.
+        function capitalize(str) {
+            /* -- Single Statement [005ms] -- */
+            return (
+                str[0].toUpperCase()
+                + str.substr(1, str.length - 1).toLowerCase()
+            );
+
+            /* -- Splint Statements [036ms] -- */
+            // firstChar = str[0];
+            // otherChar = str.substr(1, str.length - 1);
+            // return firstChar.toUpperCase() + otherChar.toLowerCase();
+
+            /* -- Split In-Place [560ms] -- */
+            // str = str.toLowerCase();
+            // str[0] = str[0].toUpperCase();
+            // return str;
+
+            /*
+             * I don't think it really makes a difference, certainly not a
+             * noticeable one in this context. However, as condensing to a
+             * single statement still requires multiple lines to write, my
+             * judgement was to improve human parseability by separating the
+             * steps amd favour processing without the creation of additional,
+             * unnecessary variables and minimal extraneous function calls.
+             * Testing proved my judgment to be wrong.
+             * For, 1 million iterations working with upper, lower and mixed
+             * input, the speed results differ by orders of magnitude (see
+             * results above).
+             */
+
+
+        }
+
+        // Write a function called lastLetter that takes a string and returns
+        // the very last letter of that string
+        function lastLetter(str) {
+            return str[str.length - 1];
+        }
+
+        console.log(add7(7));               // 14
+        console.log(multiply(7, 7));        // 49
+        console.log(capitalize("seven"));   // Seven
+        console.log(capitalize("SEVEN"));   // Seven
+        console.log(capitalize("seVEn"));   // Seven
+        console.log(lastLetter("seven"));   // n
+
+    </script>
+</body>
+
+</html>
