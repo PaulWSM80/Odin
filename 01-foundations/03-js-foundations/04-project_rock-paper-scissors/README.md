@@ -2,15 +2,15 @@
 
 ## Introduction
 
-A series of exercises as specified in the JavaScript Foundations - Function Basics
-[assignment](https://www.theodinproject.com/lessons/foundations-function-basics#assignment).
+A project to create the game Rock Paper Scissors as specified in the JS Foundations Project
+[assignment](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors#assignment).
 
-The task demonstrates how to write and call simple functions in JavaScript using parameters and arguments respectively.
+The project demonstrates the application of the skills learned thus far in solving a specific problem.
 
 ## Assignment
 
-1. Write a function called `add7` that takes one number and returns that number + 7.
-2. Write a function called `multiply` that takes 2 numbers and returns their product.
-3. Write a function called `capitalize` that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
-4. Write a function called `lastLetter` that takes a string and returns the very last letter of that string:
-    * `lastLetter("abcd")` should return `"d"`
+* Create a web page that allows users to play Rock Paper Scissors
+* Record the running score
+* Include a mechanism to reset the score
+* Any JavaScript should be in an external file
+* Any CSS styling should be in an external file
