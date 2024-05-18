@@ -34,9 +34,13 @@ function compareResults(player, cpu) {
         (player == "Scissors" && cpu == "Paper")
     ) {
         winnerDisplay.innerHTML = "Player Wins"
-        // ...
+        increment(document.getElementById("player-score"))
     } else {
         winnerDisplay.innerHTML = "CPU Wins"
-        // ...
+        increment(document.getElementById("cpu-score"))
     }
+}
+
+function increment(score) {
+    score.innerHTML = parseInt(score.innerHTML) + 1;
 }
