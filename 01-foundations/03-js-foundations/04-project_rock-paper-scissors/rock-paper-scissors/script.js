@@ -21,3 +21,22 @@ function getRandomResult() {
             return "ERROR!";
     };
 }
+
+function compareResults(player, cpu) {
+    let winnerDisplay = document.getElementById("result");
+    if (player == cpu) {
+        winnerDisplay.innerHTML = "Draw";
+        return;
+    };
+    if (
+        (player == "Rock" && cpu == "Scissors") ||
+        (player == "Paper" && cpu == "Rock") ||
+        (player == "Scissors" && cpu == "Paper")
+    ) {
+        winnerDisplay.innerHTML = "Player Wins"
+        // ...
+    } else {
+        winnerDisplay.innerHTML = "CPU Wins"
+        // ...
+    }
+}
