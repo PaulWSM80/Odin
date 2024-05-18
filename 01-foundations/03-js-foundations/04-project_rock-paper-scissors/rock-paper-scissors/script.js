@@ -44,3 +44,11 @@ function compareResults(player, cpu) {
 function increment(score) {
     score.innerHTML = parseInt(score.innerHTML) + 1;
 }
+
+function reset() {
+    document.getElementById("player-score").innerHTML = 0;
+    document.getElementById("cpu-score").innerHTML = 0;
+    document.getElementById("player-choice").innerHTML = "&nbsp;";
+    document.getElementById("cpu-choice").innerHTML = "&nbsp;";
+    document.getElementById("result").innerHTML = "&nbsp;";
+}
