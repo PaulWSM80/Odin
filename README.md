@@ -18,3 +18,4 @@ Repository to store work completed as part of [The Odin Project](https://www.the
 - JS
   - [Variables And Operators](./01-foundations/03-js-foundations/01-variables-and-operators/)
   - [Data Types And Conditionals](./01-foundations/03-js-foundations/02-data-types-and-conditionals/)
+  - [Function Basics](./01-foundations/03-js-foundations/03-function-basics/)
